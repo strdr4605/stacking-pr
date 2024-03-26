@@ -2,4 +2,6 @@
 
 echo "The current date and time is: $(date)"
 
-exit 1
+echo "End"
+
+exit 0
