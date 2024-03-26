@@ -1,0 +1,15 @@
+name: Run Test
+
+on: [push]
+
+jobs:
+  test:
+    name: Run Test Script
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout code
+        uses: actions/checkout@v2
+
+      - name: Run test script
+        run: ./test.sh
